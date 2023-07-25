@@ -1,8 +1,18 @@
-# workload
-nvidia-gpu workload monitor
 
-*This script can be used to view workload and temp for CPU and GPU*
-*Tested for NVIDIA GPU*
-*Linux Env Only - Debian Based*
+# GPU Temp and WorkLoad Golang Script 
 
+- CPU and NVIDIA GPU temp and workload.
+
+## Requirements
+
+- NVIDIA GPU with compatible drivers and `nvidia-smi` installed.
+- Golang (any version)
+- Linux environment (Debian-based)
+
+## Usage
+
+```bash
+   git clone https://github.com/nidhish1/workload.git
+   cd workload
+   go run main.go
 
